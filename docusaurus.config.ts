@@ -2,17 +2,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
-
 const config: Config = {
   title: 'STREAMLINE',
   tagline: 'Visual Video Editing, Powered by FFMPEG',
   favicon: 'img/favicon.ico',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
 
   // Set the production url of your site here
   url: 'https://streamline-app.com',
@@ -22,10 +15,11 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'streamline', // Usually your GitHub org/user name.
-  projectName: 'streamline-website', // Usually your repo name.
+  organizationName: 'IORoot',
+  projectName: 'streamline-website',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -41,19 +35,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/streamline/streamline-website/tree/main/',
+          editUrl: 'https://github.com/IORoot/streamline-website/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl: 'https://github.com/streamline/streamline-website/tree/main/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -63,12 +47,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: false,
-    },
+    image: 'img/streamline-social-card.jpg',
     navbar: {
       title: 'STREAMLINE',
       logo: {
@@ -83,12 +62,7 @@ const config: Config = {
           label: 'Documentation',
         },
         {
-          to: '/showcase',
-          label: 'Showcase',
-          position: 'left',
-        },
-        {
-          href: 'https://github.com/streamline',
+          href: 'https://github.com/IORoot/streamline',
           label: 'GitHub',
           position: 'right',
         },
@@ -98,25 +72,8 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentation',
+          title: 'Docs',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/intro',
-            },
-            {
-              label: 'Showcase',
-              to: '/showcase',
-            },
-          ],
-        },
-        {
-          title: 'Resources',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/streamline',
-            },
             {
               label: 'Documentation',
               to: '/docs/intro',
@@ -124,11 +81,11 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Community',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub',
+              href: 'https://github.com/IORoot/streamline',
             },
           ],
         },

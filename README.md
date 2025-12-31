@@ -2,119 +2,78 @@
 
 Documentation and showcase website for STREAMLINE - a visual, node-based video editing application powered by FFMPEG.
 
-## Tech Stack
+## Built With
 
-- **Docusaurus 3.9.2** - Documentation framework
-- **Tailwind CSS v4** - Utility-first CSS framework
-- **TypeScript** - Type-safe development
-- **React 19** - UI library
+- [Docusaurus](https://docusaurus.io/) - Documentation framework
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
 
-## Getting Started
+## Development
 
 ### Prerequisites
 
-- Node.js 20.0 or above
-- npm or yarn
+- Node.js 20.x (LTS) and npm
+- **Note**: Node.js v24+ has compatibility issues with Docusaurus. Please use Node.js v20.x
 
 ### Installation
 
-1. Clone the repository:
-```bash
-git clone https://github.com/streamline/streamline-website.git
-cd streamline-website
-```
-
-2. Install dependencies:
 ```bash
 npm install
 ```
 
-3. Start the development server:
+### Local Development
+
 ```bash
 npm start
 ```
 
-The site will be available at `http://localhost:3000`.
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
 
-To build the site for production:
-
 ```bash
 npm run build
 ```
 
-The built files will be in the `build` directory.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Serve Production Build
+### Deployment
 
-To serve the production build locally:
+The site is automatically deployed to Netlify on push to the `main` branch via GitHub Actions.
 
-```bash
-npm run serve
-```
+#### Manual Deployment
 
-## Deployment
+To deploy manually to Netlify:
 
-### Netlify (via GitHub Actions)
+1. Build the site: `npm run build`
+2. Deploy using Netlify CLI: `netlify deploy --prod --dir=build`
 
-This project is configured to automatically deploy to Netlify when changes are pushed to the `main` or `master` branch.
+#### GitHub Actions Setup
 
-#### Setup
+The GitHub Actions workflow requires the following secrets to be configured in your repository:
 
-1. Create a Netlify site and get your Site ID
-2. Generate a Netlify Auth Token from your Netlify account settings
-3. Add the following secrets to your GitHub repository:
-   - `NETLIFY_AUTH_TOKEN`: Your Netlify authentication token
-   - `NETLIFY_SITE_ID`: Your Netlify site ID
+- `NETLIFY_AUTH_TOKEN`: Your Netlify authentication token
+- `NETLIFY_SITE_ID`: Your Netlify site ID
 
-The GitHub Actions workflow (`.github/workflows/netlify-deploy.yml`) will automatically:
-- Build the Docusaurus site
-- Deploy to Netlify on every push to main/master
-
-### Manual Netlify Deployment
-
-You can also deploy manually using the Netlify CLI:
-
-```bash
-npm run build
-netlify deploy --dir=build --prod
-```
+To get these:
+1. Go to Netlify → User settings → Applications → New access token
+2. Create a token and add it as `NETLIFY_AUTH_TOKEN`
+3. Get your Site ID from Netlify → Site settings → General → Site details
 
 ## Project Structure
 
 ```
 streamline-website/
-├── blog/                 # Blog posts
-├── docs/                 # Documentation pages
+├── docs/                # Documentation markdown files
 ├── src/
-│   ├── components/      # React components
-│   ├── css/             # Global styles and Tailwind
-│   └── pages/           # Custom pages (homepage, showcase)
-├── static/              # Static assets (images, etc.)
+│   ├── css/            # Custom CSS with Tailwind
+│   ├── components/     # React components
+│   └── pages/          # Custom pages
+├── static/             # Static assets
 ├── docusaurus.config.ts # Docusaurus configuration
-├── tailwind.config.js   # Tailwind CSS configuration
-└── netlify.toml         # Netlify deployment configuration
+└── tailwind.config.js  # Tailwind configuration
 ```
-
-## Design System
-
-The website uses the STREAMLINE design system with:
-
-- **Colors**: Dark theme with primary green (#8BEF6C) and secondary purple (#D06CEF)
-- **Typography**: Open Sans font family
-- **Spacing**: Consistent 4px-based spacing scale
-- **Border Radius**: 1.5rem base radius
-
-See `src/css/custom.css` for the complete design system implementation.
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
 
 ## License
 
-Copyright © 2024 STREAMLINE. All rights reserved.
+ISC

@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Welcome to STREAMLINE
 
 STREAMLINE is a powerful, node-based video editing application that transforms complex FFMPEG operations into an intuitive visual workflow.
@@ -15,21 +11,20 @@ Built on Electron and React, STREAMLINE combines the power of industry-standard 
 ## Key Features
 
 - **Visual Node-Based Editing**: Create pipelines by connecting nodes visually
-- **Real-Time Preview**: See changes instantly as you build your pipeline
-- **Comprehensive Node Library**: Access to all FFMPEG capabilities through nodes
-- **AI-Powered Control**: Use AI assistants to control the application programmatically
-- **Pipeline Validation**: Automatic validation ensures successful execution
+- **Real-Time Preview**: See your changes instantly
+- **Comprehensive Node Library**: Extensive collection of pre-built nodes
+- **AI-Powered Control**: Built-in MCP server for AI assistance
+- **Pipeline Validation**: Automatic validation before execution
 - **Cross-Platform**: Available for macOS, Windows, and Linux
 
-## Getting Started
+## Quick Start
 
-1. **Download STREAMLINE** for your platform
-2. **Launch the application** and explore the node library
-3. **Create your first pipeline** by dragging nodes onto the canvas
-4. **Connect nodes** to build your video processing workflow
-5. **Preview and export** your results
+1. [Install STREAMLINE](/docs/getting-started/installation)
+2. [Create your first pipeline](/docs/getting-started/quick-start)
+3. [Explore the node library](/docs/user-guide/node-library)
 
 ## Next Steps
 
-- Explore [Pipeline Examples](/showcase)
-- Learn more about [creating documents](/docs/tutorial-basics/create-a-document)
+- Read the [Getting Started Guide](/docs/getting-started/installation)
+- Learn about [Creating Pipelines](/docs/user-guide/creating-pipelines)
+- Explore [Advanced Features](/docs/advanced/custom-nodes)

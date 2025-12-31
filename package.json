@@ -1,7 +1,8 @@
 {
-  "name": "streamline-website",
-  "version": "0.0.0",
-  "private": true,
+  "name": "streamline_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -11,40 +12,34 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
-  "dependencies": {
-    "@docusaurus/core": "3.9.2",
-    "@docusaurus/preset-classic": "3.9.2",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.0.0",
-    "prism-react-renderer": "^2.3.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IORoot/streamline-website.git"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IORoot/streamline-website/issues"
+  },
+  "homepage": "https://github.com/IORoot/streamline-website#readme",
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.9.2",
-    "@docusaurus/tsconfig": "3.9.2",
-    "@docusaurus/types": "3.9.2",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.17",
-    "typescript": "~5.6.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
-    ]
-  },
-  "engines": {
-    "node": ">=20.0"
+    "@docusaurus/core": "^3.9.2",
+    "@docusaurus/module-type-aliases": "^3.9.2",
+    "@docusaurus/preset-classic": "^3.9.2",
+    "@docusaurus/theme-classic": "^3.9.2",
+    "@docusaurus/theme-common": "^3.9.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.23",
+    "clsx": "^2.1.1",
+    "postcss": "^8.5.6",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9.3"
   }
 }

@@ -2,19 +2,19 @@
 module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx,md,mdx}',
+    './blog/**/*.{js,jsx,ts,tsx,md,mdx}',
+    './docs/**/*.{js,jsx,ts,tsx,md,mdx}',
     './docusaurus.config.ts',
   ],
   theme: {
     extend: {
       colors: {
-        // Base Colors
         'bg-dark': '#0D0D0D',
-        'bg-base': '#1A1A1A',
+        'bg-primary': '#1A1A1A',
         'bg-light': '#262626',
         'border': '#333333',
         'text': '#F2F2F2',
         'text-muted': '#BFBFBF',
-        // Accent Colors
         'primary': '#8BEF6C',
         'secondary': '#D06CEF',
         'success': '#63B363',
@@ -23,13 +23,33 @@ module.exports = {
         'info': '#529EE0',
       },
       fontFamily: {
-        sans: ['Open Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
-        mono: ['source-code-pro', 'Menlo', 'Monaco', 'Consolas', 'Courier New', 'monospace'],
+        sans: [
+          'Open Sans',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          'Segoe UI',
+          'Roboto',
+          'Oxygen',
+          'Ubuntu',
+          'Cantarell',
+          'Fira Sans',
+          'Droid Sans',
+          'Helvetica Neue',
+          'sans-serif',
+        ],
+        mono: [
+          'source-code-pro',
+          'Menlo',
+          'Monaco',
+          'Consolas',
+          'Courier New',
+          'monospace',
+        ],
       },
       borderRadius: {
-        'lg': '1.5rem',
-        'md': '22px',
-        'sm': '20px',
+        'base': '1.5rem',
+        'md': 'calc(1.5rem - 2px)',
+        'sm': 'calc(1.5rem - 4px)',
         'xs': '6px',
       },
       boxShadow: {
@@ -42,4 +62,7 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false, // Disable Tailwind's base styles to avoid conflicts with Docusaurus
+  },
 };
