@@ -32,4 +32,4 @@ Built on Electron and React, STREAMLINE combines the power of industry-standard 
 ## Next Steps
 
 - Explore [Pipeline Examples](/showcase)
-- Check out the [Documentation](/docs)
+- Learn more about [creating documents](/docs/tutorial-basics/create-a-document)
