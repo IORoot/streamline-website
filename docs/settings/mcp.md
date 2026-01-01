@@ -127,4 +127,4 @@ For more detailed setup instructions, see:
 - [MCP Setup with Cursor](/docs/getting-started/mcp-setup-cursor)
 
 For information about the MCP server implementation, see:
-- [Technical Details - MCP Integration](/docs/technical-details/mcp-integration)
+- [MCP Integration](/docs/advanced/mcp-integration)

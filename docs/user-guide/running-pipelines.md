@@ -128,7 +128,7 @@ The working directory affects:
 
 - **Single File**: Uses specified output filename
 - **Multiple Files**: Auto-incrementing numbers (1_output.mp4, 2_output.mp4)
-- **Template Variables**: Can use `{{auto_increment}}` for custom naming
+- **Template Variables**: Can use `&#123;&#123;auto_increment&#125;&#125;` for custom naming
 
 ### Output Location
 

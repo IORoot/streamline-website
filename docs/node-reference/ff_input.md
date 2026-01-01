@@ -76,7 +76,7 @@ When you select multiple files or a folder:
 - Each file is processed independently through the pipeline
 - Files maintain their original names (unless renamed by subsequent nodes)
 - Use with the **Grep Filter** node to filter specific files by pattern
-- Output nodes can use `{{auto_increment}}` for sequential numbering
+- Output nodes can use `&#123;&#123;auto_increment&#125;&#125;` for sequential numbering
 
 ### Common Use Cases
 

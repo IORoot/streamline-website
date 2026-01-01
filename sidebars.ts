@@ -17,6 +17,7 @@ const sidebars: SidebarsConfig = {
       label: 'User Guide',
       items: [
         'user-guide/interface-and-canvas',
+        'user-guide/sidebar',
         'user-guide/creating-pipelines',
         'user-guide/running-pipelines',
         'user-guide/preview-system',

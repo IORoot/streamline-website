@@ -30,7 +30,7 @@ The Output node takes the processed file from your pipeline and saves it to your
 
 - **outputFilename** (`string`): Name for the output file
   - Include the file extension (e.g., "final.mp4", "processed.mov")
-  - For multiple files, use `{{auto_increment}}` placeholder (e.g., "video_{{auto_increment}}.mp4")
+  - For multiple files, use `&#123;&#123;auto_increment&#125;&#125;` placeholder (e.g., "video_&#123;&#123;auto_increment&#125;&#125;.mp4")
   - Default: "output.mp4"
 
 ### Optional Inputs
@@ -84,7 +84,7 @@ ffmpeg -i "input.mp4" -c copy "output_folder/output-1.mp4"
 
 When processing multiple files, use these patterns:
 
-- **With Placeholder**: `my_file_{{auto_increment}}.mp4`
+- **With Placeholder**: `my_file_&#123;&#123;auto_increment&#125;&#125;.mp4`
   - Results in: `my_file_1.mp4`, `my_file_2.mp4`, `my_file_3.mp4`, etc.
   
 - **Without Placeholder**: `output.mp4`
@@ -115,7 +115,7 @@ When `preventOverwrite` is disabled:
 
 - File extension is optional - it will be added automatically from the input if missing
 - Make sure the output folder exists and has write permissions
-- Use `{{auto_increment}}` for cleaner batch file naming
+- Use `&#123;&#123;auto_increment&#125;&#125;` for cleaner batch file naming
 - You can use multiple Output nodes to save the same file to different locations
 - Enable `preventOverwrite` to safely save files without worrying about overwriting existing ones
 - The Output node uses stream copy (`-c copy`) for fast, lossless copying - no re-encoding occurs
@@ -129,7 +129,7 @@ Scale Video (1920x1080)
     ↓
 Color Correct
     ↓
-Output Node (folder: "processed/", filename: "final_{{auto_increment}}.mp4")
+Output Node (folder: "processed/", filename: "final_&#123;&#123;auto_increment&#125;&#125;.mp4")
 ```
 
 This workflow:

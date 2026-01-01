@@ -227,4 +227,4 @@ Each node's `executeFilterGraph` method:
 
 - Learn about [FFMPEG Integration](/docs/technical-details/ffmpeg-integration) - FFMPEG usage
 - Explore [Workflow Execution](/docs/technical-details/workflow-execution) - Execution details
-- Understand [Node Reference](/docs/node-reference) - Individual node filters
+- Understand [Node Reference](/docs/node-reference/ff_input) - Individual node filters

@@ -106,5 +106,3 @@ The current custom nodes directory is displayed below the input field for refere
 
 For more information on creating and using custom nodes:
 - [Extending Plugins - Introduction](/docs/extending-plugins/introduction)
-- [Extending Plugins - Node Plugin Interface](/docs/extending-plugins/node-plugin-interface)
-- [Extending Plugins - Creating Custom Nodes](/docs/extending-plugins/creating-custom-nodes)
