@@ -38,10 +38,10 @@ export default function Home(): JSX.Element {
           <div className="container">
             <div className="row">
               <div className="col col--8 col--offset-2">
-                <Heading as="h2" className="text-center" style={{color: '#F2F2F2', marginBottom: '2rem'}}>
+                <Heading as="h2" className="text-center" style={{color: 'var(--ifm-color-content)', marginBottom: '2rem'}}>
                   Transform Video Editing with Visual Workflows
                 </Heading>
-                <p className="text-center" style={{color: '#BFBFBF', fontSize: '1.25rem', marginBottom: '3rem'}}>
+                <p className="text-center" style={{color: 'var(--ifm-color-content-secondary)', fontSize: '1.25rem', marginBottom: '3rem'}}>
                   STREAMLINE is a powerful, node-based video editing application that transforms complex FFMPEG operations into an intuitive visual workflow. Build professional video processing pipelines by simply connecting nodes—no command-line expertise required.
                 </p>
               </div>
@@ -49,18 +49,18 @@ export default function Home(): JSX.Element {
           </div>
         </section>
 
-        <section style={{padding: '4rem 0', background: '#1A1A1A'}}>
+        <section style={{padding: '4rem 0', background: 'var(--ifm-background-color)'}}>
           <div className="container">
-            <Heading as="h2" className="text-center" style={{color: '#F2F2F2', marginBottom: '3rem'}}>
+            <Heading as="h2" className="text-center" style={{color: 'var(--ifm-color-content)', marginBottom: '3rem'}}>
               Key Features
             </Heading>
             <div className="row" style={{gap: '2rem'}}>
               <div className="col col--4">
                 <div className="feature-card">
-                  <Heading as="h3" style={{color: '#8BEF6C', marginBottom: '1rem'}}>
+                  <Heading as="h3" style={{color: 'var(--ifm-color-primary)', marginBottom: '1rem'}}>
                     Visual Node-Based Editing
                   </Heading>
-                  <p style={{color: '#BFBFBF'}}>
+                  <p style={{color: 'var(--ifm-color-content-secondary)'}}>
                     Create complex video processing pipelines by simply dragging and connecting nodes. No command-line expertise required.
                   </p>
                 </div>
@@ -70,47 +70,47 @@ export default function Home(): JSX.Element {
                   <Heading as="h3" style={{color: '#8BEF6C', marginBottom: '1rem'}}>
                     Real-Time Preview
                   </Heading>
-                  <p style={{color: '#BFBFBF'}}>
+                  <p style={{color: 'var(--ifm-color-content-secondary)'}}>
                     See your changes instantly with real-time preview generation. Adjust parameters and watch your video transform in real-time.
                   </p>
                 </div>
               </div>
               <div className="col col--4">
                 <div className="feature-card">
-                  <Heading as="h3" style={{color: '#8BEF6C', marginBottom: '1rem'}}>
+                  <Heading as="h3" style={{color: 'var(--ifm-color-primary)', marginBottom: '1rem'}}>
                     Comprehensive Node Library
                   </Heading>
-                  <p style={{color: '#BFBFBF'}}>
+                  <p style={{color: 'var(--ifm-color-content-secondary)'}}>
                     Extensive library of pre-built nodes covering every aspect of video processing, from basic operations to advanced effects.
                   </p>
                 </div>
               </div>
               <div className="col col--4">
                 <div className="feature-card">
-                  <Heading as="h3" style={{color: '#8BEF6C', marginBottom: '1rem'}}>
+                  <Heading as="h3" style={{color: 'var(--ifm-color-primary)', marginBottom: '1rem'}}>
                     AI-Powered Control
                   </Heading>
-                  <p style={{color: '#BFBFBF'}}>
+                  <p style={{color: 'var(--ifm-color-content-secondary)'}}>
                     Built-in MCP server enables AI assistants to control the application programmatically. Describe what you want in natural language.
                   </p>
                 </div>
               </div>
               <div className="col col--4">
                 <div className="feature-card">
-                  <Heading as="h3" style={{color: '#8BEF6C', marginBottom: '1rem'}}>
+                  <Heading as="h3" style={{color: 'var(--ifm-color-primary)', marginBottom: '1rem'}}>
                     Pipeline Validation
                   </Heading>
-                  <p style={{color: '#BFBFBF'}}>
+                  <p style={{color: 'var(--ifm-color-content-secondary)'}}>
                     Automatic validation ensures your workflows are correct before execution. Clear error messages help you fix issues quickly.
                   </p>
                 </div>
               </div>
               <div className="col col--4">
                 <div className="feature-card">
-                  <Heading as="h3" style={{color: '#8BEF6C', marginBottom: '1rem'}}>
+                  <Heading as="h3" style={{color: 'var(--ifm-color-primary)', marginBottom: '1rem'}}>
                     Cross-Platform
                   </Heading>
-                  <p style={{color: '#BFBFBF'}}>
+                  <p style={{color: 'var(--ifm-color-content-secondary)'}}>
                     Available for macOS, Windows, and Linux. Built on Electron and React for a consistent experience across all platforms.
                   </p>
                 </div>
@@ -119,14 +119,14 @@ export default function Home(): JSX.Element {
           </div>
         </section>
 
-        <section style={{padding: '4rem 0', background: '#0D0D0D'}}>
+        <section style={{padding: '4rem 0', background: 'var(--ifm-navbar-background-color)'}}>
           <div className="container">
             <div className="row">
               <div className="col col--8 col--offset-2 text-center">
-                <Heading as="h2" style={{color: '#F2F2F2', marginBottom: '2rem'}}>
+                <Heading as="h2" style={{color: 'var(--ifm-color-content)', marginBottom: '2rem'}}>
                   Ready to Get Started?
                 </Heading>
-                <p style={{color: '#BFBFBF', fontSize: '1.125rem', marginBottom: '2rem'}}>
+                <p style={{color: 'var(--ifm-color-content-secondary)', fontSize: '1.125rem', marginBottom: '2rem'}}>
                   Download STREAMLINE today and discover how visual workflows can transform your video editing process.
                 </p>
                 <div style={{display: 'flex', gap: '1rem', justifyContent: 'center'}}>

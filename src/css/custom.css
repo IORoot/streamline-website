@@ -14,7 +14,33 @@
   vertical-align: middle;
   margin-right: 8px;
   display: inline-block;
-  filter: brightness(0) invert(1); /* Make icons white */
+}
+
+[data-theme='dark'] .node-icon {
+  filter: brightness(0) invert(1); /* Make icons white in dark mode */
+}
+
+[data-theme='light'] .node-icon {
+  filter: brightness(0); /* Make icons black in light mode */
+}
+
+/* New page badge styling */
+.new-badge {
+  display: inline-block;
+  background: var(--ifm-color-primary);
+  color: var(--ifm-background-color);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+[data-theme='light'] .new-badge {
+  background: var(--ifm-color-primary);
+  color: #FFFFFF;
 }
 
 @tailwind base;
@@ -34,16 +60,35 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   --ifm-font-family-monospace: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-  --ifm-background-color: #1A1A1A;
-  --ifm-background-surface-color: #262626;
-  --ifm-color-content: #F2F2F2;
-  --ifm-color-content-secondary: #BFBFBF;
-  --ifm-navbar-background-color: #0D0D0D;
-  --ifm-footer-background-color: #0D0D0D;
-  --ifm-border-color: #333333;
+  --ifm-background-color: #FFFFFF;
+  --ifm-background-surface-color: #F5F5F5;
+  --ifm-color-content: #1A1A1A;
+  --ifm-color-content-secondary: #4A4A4A;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-footer-background-color: #F5F5F5;
+  --ifm-border-color: #E0E0E0;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Light mode theme */
+[data-theme='light'] {
+  --ifm-color-primary: #5BCA3A;
+  --ifm-color-primary-dark: #4FB32E;
+  --ifm-color-primary-darker: #4AA82B;
+  --ifm-color-primary-darkest: #3D8A23;
+  --ifm-color-primary-light: #6DD14A;
+  --ifm-color-primary-lighter: #75D652;
+  --ifm-color-primary-lightest: #8FE06F;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #FFFFFF;
+  --ifm-background-surface-color: #F5F5F5;
+  --ifm-color-content: #1A1A1A;
+  --ifm-color-content-secondary: #4A4A4A;
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-footer-background-color: #F5F5F5;
+  --ifm-border-color: #E0E0E0;
+}
+
+/* Dark mode theme */
 [data-theme='dark'] {
   --ifm-color-primary: #8BEF6C;
   --ifm-color-primary-dark: #7AE55A;
@@ -64,7 +109,7 @@
 
 /* Custom Streamline styles */
 .hero-section {
-  background: linear-gradient(180deg, #0D0D0D 0%, #1A1A1A 100%);
+  background: linear-gradient(180deg, var(--ifm-navbar-background-color) 0%, var(--ifm-background-color) 100%);
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -72,16 +117,20 @@
 }
 
 .feature-card {
-  background: #262626;
-  border: 1px solid #333333;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-border-color);
   border-radius: 1.5rem;
   padding: 2rem;
   transition: all 0.3s ease;
 }
 
 .feature-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .feature-card:hover {
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
-  border-color: #8BEF6C;
 }
 
 .btn-primary {
@@ -100,9 +149,9 @@
 }
 
 .btn-secondary {
-  background: #262626;
-  color: #F2F2F2;
-  border: 1px solid #333333;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-color-content);
+  border: 1px solid var(--ifm-border-color);
   border-radius: calc(1.5rem - 2px);
   padding: 0.75rem 1.5rem;
   font-weight: 600;
@@ -110,31 +159,29 @@
 }
 
 .btn-secondary:hover {
-  background: #333333;
-  border-color: #8BEF6C;
+  background: var(--ifm-background-color);
+  border-color: var(--ifm-color-primary);
 }
 
-/* Code block styling - black background with green text */
-pre,
-pre code,
-code,
-.prism-code,
-.token {
+/* Code block styling - dark background with green text for dark mode */
+[data-theme='dark'] pre,
+[data-theme='dark'] pre code,
+[data-theme='dark'] code,
+[data-theme='dark'] .prism-code,
+[data-theme='dark'] .token {
   background-color: #000000 !important;
   color: #00ff00 !important;
   font-family: var(--ifm-font-family-monospace) !important;
 }
 
-/* Code block container */
-pre {
+[data-theme='dark'] pre {
   background-color: #000000 !important;
   border: 1px solid #333333;
   border-radius: 0.5rem;
   padding: 1rem;
 }
 
-/* Inline code */
-:not(pre) > code {
+[data-theme='dark'] :not(pre) > code {
   background-color: #000000 !important;
   color: #00ff00 !important;
   padding: 0.2em 0.4em;
@@ -142,45 +189,63 @@ pre {
   font-family: var(--ifm-font-family-monospace) !important;
 }
 
-/* Prism syntax highlighting - override all token colors to green */
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata,
-.token.punctuation,
-.token.property,
-.token.tag,
-.token.boolean,
-.token.number,
-.token.constant,
-.token.symbol,
-.token.deleted,
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted,
-.token.operator,
-.token.entity,
-.token.url,
-.token.variable,
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name,
-.token.keyword,
-.token.regex,
-.token.important {
+[data-theme='dark'] .token.comment,
+[data-theme='dark'] .token.prolog,
+[data-theme='dark'] .token.doctype,
+[data-theme='dark'] .token.cdata,
+[data-theme='dark'] .token.punctuation,
+[data-theme='dark'] .token.property,
+[data-theme='dark'] .token.tag,
+[data-theme='dark'] .token.boolean,
+[data-theme='dark'] .token.number,
+[data-theme='dark'] .token.constant,
+[data-theme='dark'] .token.symbol,
+[data-theme='dark'] .token.deleted,
+[data-theme='dark'] .token.selector,
+[data-theme='dark'] .token.attr-name,
+[data-theme='dark'] .token.string,
+[data-theme='dark'] .token.char,
+[data-theme='dark'] .token.builtin,
+[data-theme='dark'] .token.inserted,
+[data-theme='dark'] .token.operator,
+[data-theme='dark'] .token.entity,
+[data-theme='dark'] .token.url,
+[data-theme='dark'] .token.variable,
+[data-theme='dark'] .token.atrule,
+[data-theme='dark'] .token.attr-value,
+[data-theme='dark'] .token.function,
+[data-theme='dark'] .token.class-name,
+[data-theme='dark'] .token.keyword,
+[data-theme='dark'] .token.regex,
+[data-theme='dark'] .token.important {
   color: #00ff00 !important;
 }
 
-/* Code block line numbers if present */
-.prism-code .token-line {
+[data-theme='dark'] .prism-code .token-line {
   color: #00ff00 !important;
 }
 
-/* Highlighted code lines */
-.docusaurus-highlight-code-line {
+[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 255, 0, 0.1) !important;
+}
+
+/* Code block styling - light background for light mode */
+[data-theme='light'] pre,
+[data-theme='light'] pre code {
+  background-color: #F5F5F5 !important;
+  border: 1px solid #E0E0E0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+[data-theme='light'] :not(pre) > code {
+  background-color: #F5F5F5 !important;
+  color: var(--ifm-color-content);
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-family: var(--ifm-font-family-monospace) !important;
+}
+
+[data-theme='light'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.05) !important;
 }
