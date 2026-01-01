@@ -8,6 +8,8 @@ description: Overlay a video/image at specific time on the video
 
 <img src="/img/node-icons/overlay.svg" alt="ff_overlay Icon" className="node-icon" />
 
+![Overlay Node](/img/node-screenshots/ff_overlay.png)
+
 The **Overlay** node overlays a video or image onto another video at a specific position and time range.
 
 ## Overview

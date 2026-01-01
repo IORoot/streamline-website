@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-volume.svg" alt="ff_a_volume Icon" className="node-icon" />
 
+![Audio Volume Node](/img/node-screenshots/ff_a_volume.png)
+
 Control audio volume level using multiplier or decibel adjustment.
 
 ## Description

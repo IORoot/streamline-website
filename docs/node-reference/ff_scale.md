@@ -8,6 +8,8 @@ description: Change the scale (physical dimensions) of the video
 
 <img src="/img/node-icons/scale.svg" alt="ff_scale Icon" className="node-icon" />
 
+![Scale Video Node](/img/node-screenshots/ff_scale.png)
+
 The **Scale Video** node changes the physical dimensions (resolution) of your video while maintaining or setting aspect ratios. You can scale by width or height, with automatic calculation of the other dimension to preserve aspect ratio.
 
 ## Overview

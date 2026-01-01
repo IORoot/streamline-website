@@ -8,6 +8,8 @@ description: Cut video to specific time range
 
 <img src="/img/node-icons/cut.svg" alt="ff_cut Icon" className="node-icon" />
 
+![Cut Video Node](/img/node-screenshots/ff_cut.png)
+
 The **Cut Video** node cuts a video to a specific time range using start and end times. Supports various time formats including HH:MM:SS and seconds.
 
 ## Overview

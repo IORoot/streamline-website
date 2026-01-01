@@ -8,6 +8,8 @@ description: Add padding to video dimensions
 
 <img src="/img/node-icons/pad.svg" alt="ff_pad Icon" className="node-icon" />
 
+![Pad Video Node](/img/node-screenshots/ff_pad.png)
+
 The **Pad Video** node adds padding (borders) to your video. You can pad by specifying edges (top, right, bottom, left) or by specifying total output size and position. Supports both outwards (expanding dimensions) and inwards (squashing content) modes.
 
 ## Overview

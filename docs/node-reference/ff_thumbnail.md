@@ -8,6 +8,8 @@ description: Extract a single frame at a specific timestamp
 
 <img src="/img/node-icons/thumbnail.svg" alt="ff_thumbnail Icon" className="node-icon" />
 
+![Thumbnail Node](/img/node-screenshots/ff_thumbnail.png)
+
 The **Thumbnail** node extracts a single frame from a video at a specific timestamp and saves it as an image file.
 
 ## Overview

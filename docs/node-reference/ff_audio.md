@@ -8,6 +8,8 @@ description: Overlay an audio track at specific time on the video
 
 <img src="/img/node-icons/audio.svg" alt="ff_audio Icon" className="node-icon" />
 
+![Audio Overlay Node](/img/node-screenshots/ff_audio.png)
+
 The **Audio Overlay** node overlays an audio track onto a video at a specific start time. You can mix it with the original audio or replace it entirely, and adjust playback speed.
 
 ## Overview

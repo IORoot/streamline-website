@@ -8,6 +8,8 @@ description: Copy output file to specified location with custom filename
 
 <img src="/img/node-icons/output.svg" alt="ff_output Icon" className="node-icon" />
 
+![Output Node](/img/node-screenshots/ff_output.png)
+
 The **Output** node is the final step in your pipeline. It copies the processed file to a specified output location with a custom filename, supporting batch processing with auto-incrementing filenames.
 
 ## Overview

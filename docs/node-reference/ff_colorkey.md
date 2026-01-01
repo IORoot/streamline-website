@@ -8,6 +8,8 @@ description: Make a specific color transparent - perfect for green screen remova
 
 <img src="/img/node-icons/colorkey.svg" alt="ff_colorkey Icon" className="node-icon" />
 
+![Colorkey (Chroma Key) Node](/img/node-screenshots/ff_colorkey.png)
+
 The **Colorkey** node makes a specific color transparent, perfect for green screen removal and chroma key compositing.
 
 ## Overview

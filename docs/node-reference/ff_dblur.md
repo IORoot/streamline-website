@@ -8,6 +8,8 @@ description: Apply directional blur - perfect for motion blur effects
 
 <img src="/img/node-icons/dblur.svg" alt="ff_dblur Icon" className="node-icon" />
 
+![Directional Blur Node](/img/node-screenshots/ff_dblur.png)
+
 The **Directional Blur** node applies blur in a specific direction, perfect for creating motion blur effects or directional softening.
 
 ## Overview

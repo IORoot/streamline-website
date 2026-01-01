@@ -8,6 +8,8 @@ description: Generate low-res proxy video
 
 <img src="/img/node-icons/proxy.svg" alt="ff_proxy Icon" className="node-icon" />
 
+![Generate Proxy Node](/img/node-screenshots/ff_proxy.png)
+
 The **Generate Proxy** node creates low-resolution proxy videos for faster editing and preview workflows.
 
 ## Overview

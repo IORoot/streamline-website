@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-reverse.svg" alt="ff_a_reverse Icon" className="node-icon" />
 
+![Audio Reverse Node](/img/node-screenshots/ff_a_reverse.png)
+
 Reverse audio playback to play audio backwards.
 
 ## Description

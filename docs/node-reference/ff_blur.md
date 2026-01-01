@@ -8,6 +8,8 @@ description: Apply blur effect to video
 
 <img src="/img/node-icons/blur.svg" alt="ff_blur Icon" className="node-icon" />
 
+![Blur Video Node](/img/node-screenshots/ff_blur.png)
+
 The **Blur Video** node applies a Gaussian blur effect to your video. This is useful for creating privacy effects, artistic blur, or softening video content.
 
 ## Overview

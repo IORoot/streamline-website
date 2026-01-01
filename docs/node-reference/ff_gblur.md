@@ -8,6 +8,8 @@ description: Apply high-quality Gaussian blur with separate horizontal/vertical 
 
 <img src="/img/node-icons/gblur.svg" alt="ff_gblur Icon" className="node-icon" />
 
+![Gaussian Blur Node](/img/node-screenshots/ff_gblur.png)
+
 The **Gaussian Blur** node applies a high-quality Gaussian blur effect to your video with separate control over horizontal and vertical blur, multiple blur steps for quality, and selective channel blurring (Y, U, V, A planes).
 
 ## Overview

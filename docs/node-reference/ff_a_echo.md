@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-echo.svg" alt="ff_a_echo Icon" className="node-icon" />
 
+![Audio Echo Node](/img/node-screenshots/ff_a_echo.png)
+
 Apply echo/reverb effects to audio with configurable delay, decay, and gain settings.
 
 ## Description

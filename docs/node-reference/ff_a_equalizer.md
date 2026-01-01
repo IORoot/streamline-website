@@ -8,6 +8,8 @@ description: Apply peaking equalization filter to boost or cut specific frequenc
 
 <img src="/img/node-icons/audio-equalizer.svg" alt="ff_a_equalizer Icon" className="node-icon" />
 
+![Audio Equalizer Node](/img/node-screenshots/ff_a_equalizer.png)
+
 Apply peaking equalization filter to boost or cut specific frequency ranges.
 
 ## Description

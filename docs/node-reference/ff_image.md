@@ -8,6 +8,8 @@ description: Convert image to video
 
 <img src="/img/node-icons/image.svg" alt="ff_image Icon" className="node-icon" />
 
+![Image to Video Node](/img/node-screenshots/ff_image.png)
+
 The **Image to Video** node converts a static image into a video by looping it for a specified duration at a given frame rate.
 
 ## Overview

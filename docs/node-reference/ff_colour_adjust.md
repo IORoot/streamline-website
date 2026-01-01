@@ -8,6 +8,8 @@ description: Alter the colour of a video
 
 <img src="/img/node-icons/colour-adjust.svg" alt="ff_colour_adjust Icon" className="node-icon" />
 
+![Colour Adjust Node](/img/node-screenshots/ff_colour_adjust.png)
+
 The **Colour Adjust** node alters the color of a video with controls for brightness, contrast, saturation, and gamma.
 
 ## Overview

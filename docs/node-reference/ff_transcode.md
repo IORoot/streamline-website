@@ -8,6 +8,8 @@ description: Transcode video with scaling and padding
 
 <img src="/img/node-icons/transcode.svg" alt="ff_transcode Icon" className="node-icon" />
 
+![Transcode Video Node](/img/node-screenshots/ff_transcode.png)
+
 The **Transcode Video** node transcodes video with scaling, padding, frame rate conversion, and codec selection.
 
 ## Overview

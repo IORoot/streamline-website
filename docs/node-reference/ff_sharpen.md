@@ -8,6 +8,8 @@ description: Apply sharpening effect to video
 
 <img src="/img/node-icons/sharpen.svg" alt="ff_sharpen Icon" className="node-icon" />
 
+![Sharpen Video Node](/img/node-screenshots/ff_sharpen.png)
+
 The **Sharpen Video** node applies a sharpening effect to enhance details and make video appear crisper. It uses FFMPEG's unsharp filter with configurable pixel radius and sharpening strength.
 
 ## Overview

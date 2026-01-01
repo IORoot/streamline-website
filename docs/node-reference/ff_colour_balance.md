@@ -8,6 +8,8 @@ description: Adjust color balance in shadows, midtones, and highlights
 
 <img src="/img/node-icons/colour-balance.svg" alt="ff_colour_balance Icon" className="node-icon" />
 
+![Colour Balance Node](/img/node-screenshots/ff_colour_balance.png)
+
 The **Colour Balance** node adjusts color balance separately in shadows, midtones, and highlights, with independent red, green, and blue controls for each tonal range.
 
 ## Overview

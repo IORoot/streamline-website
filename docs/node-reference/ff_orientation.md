@@ -8,6 +8,8 @@ description: Convert video orientation
 
 <img src="/img/node-icons/orientation.svg" alt="ff_orientation Icon" className="node-icon" />
 
+![Orientation Node](/img/node-screenshots/ff_orientation.png)
+
 The **Orientation** node converts video orientation using rotation and vertical flip controls.
 
 ## Overview

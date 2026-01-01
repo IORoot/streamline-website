@@ -8,6 +8,8 @@ description: Extract middle portion of video
 
 <img src="/img/node-icons/middle.svg" alt="ff_middle Icon" className="node-icon" />
 
+![Extract Middle Node](/img/node-screenshots/ff_middle.png)
+
 The **Extract Middle** node extracts the middle portion of a video for a specified duration.
 
 ## Overview

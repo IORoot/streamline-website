@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-tempo.svg" alt="ff_a_tempo Icon" className="node-icon" />
 
+![Audio Tempo Node](/img/node-screenshots/ff_a_tempo.png)
+
 Adjust audio tempo (speed) without changing pitch using time-stretching.
 
 ## Description

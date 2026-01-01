@@ -8,6 +8,8 @@ description: Apply LUT color grading to video
 
 <img src="/img/node-icons/lut.svg" alt="ff_lut Icon" className="node-icon" />
 
+![LUT Color Grading Node](/img/node-screenshots/ff_lut.png)
+
 The **LUT Color Grading** node applies Look-Up Table (LUT) color grading to video, allowing you to use professional color grading presets.
 
 ## Overview

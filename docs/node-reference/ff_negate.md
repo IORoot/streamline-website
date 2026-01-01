@@ -8,6 +8,8 @@ description: Invert the colors of the video (negative effect)
 
 <img src="/img/node-icons/negate.svg" alt="ff_negate Icon" className="node-icon" />
 
+![Negate (Invert) Node](/img/node-screenshots/ff_negate.png)
+
 The **Negate** node inverts the colors of the video, creating a negative effect similar to film negatives.
 
 ## Overview

@@ -8,6 +8,8 @@ description: Adjust color contrast between RGB components
 
 <img src="/img/node-icons/colour-contrast.svg" alt="ff_colour_contrast Icon" className="node-icon" />
 
+![Colour Contrast Node](/img/node-screenshots/ff_colour_contrast.png)
+
 The **Colour Contrast** node adjusts color contrast between RGB components using opponent color theory (red-cyan, green-magenta, blue-yellow).
 
 ## Overview

@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-compressor.svg" alt="ff_a_compressor Icon" className="node-icon" />
 
+![Audio Compressor Node](/img/node-screenshots/ff_a_compressor.png)
+
 Apply dynamic range compression to audio to reduce the difference between loud and quiet sounds.
 
 ## Description

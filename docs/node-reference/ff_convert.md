@@ -8,6 +8,8 @@ description: Convert video to different format
 
 <img src="/img/node-icons/convert.svg" alt="ff_convert Icon" className="node-icon" />
 
+![Convert Format Node](/img/node-screenshots/ff_convert.png)
+
 The **Convert Format** node converts videos between different container formats and codecs, automatically selecting appropriate codecs for each format.
 
 ## Overview

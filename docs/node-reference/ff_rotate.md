@@ -8,6 +8,8 @@ description: Rotate a video by specified degrees
 
 <img src="/img/node-icons/rotate.svg" alt="ff_rotate Icon" className="node-icon" />
 
+![Rotate Video Node](/img/node-screenshots/ff_rotate.png)
+
 The **Rotate Video** node rotates a video by a specified number of degrees in either clockwise or counter-clockwise direction. This is useful for correcting orientation issues, creating portrait versions of landscape videos, or applying creative rotations.
 
 ## Overview

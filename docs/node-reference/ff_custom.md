@@ -8,6 +8,8 @@ description: Custom FFMPEG processing with user-defined parameters
 
 <img src="/img/node-icons/custom.svg" alt="ff_custom Icon" className="node-icon" />
 
+![Custom FFMPEG Node](/img/node-screenshots/ff_custom.png)
+
 The **Custom FFMPEG** node allows you to apply custom FFMPEG filter parameters directly, providing full control over video processing for advanced users.
 
 ## Overview

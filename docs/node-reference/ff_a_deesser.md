@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-deesser.svg" alt="ff_a_deesser Icon" className="node-icon" />
 
+![Audio DeEsser Node](/img/node-screenshots/ff_a_deesser.png)
+
 Apply de-essing to reduce sibilance (harsh "s", "sh", "ch" sounds) in vocal recordings.
 
 ## Description

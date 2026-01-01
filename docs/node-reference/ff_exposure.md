@@ -8,6 +8,8 @@ description: Adjust the exposure (brightness) of the video
 
 <img src="/img/node-icons/exposure.svg" alt="ff_exposure Icon" className="node-icon" />
 
+![Exposure Node](/img/node-screenshots/ff_exposure.png)
+
 The **Exposure** node adjusts the exposure (overall brightness) of your video using EV (Exposure Value) units, similar to camera exposure compensation. It also allows you to adjust the black level to control shadow detail and contrast.
 
 ## Overview

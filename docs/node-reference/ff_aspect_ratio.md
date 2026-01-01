@@ -8,6 +8,8 @@ description: Change the video aspect ratio by modifying container metadata
 
 <img src="/img/node-icons/aspect-ratio.svg" alt="ff_aspect_ratio Icon" className="node-icon" />
 
+![Aspect Ratio Node](/img/node-screenshots/ff_aspect_ratio.png)
+
 The **Aspect Ratio** node changes the video aspect ratio by modifying container metadata (DAR - Display Aspect Ratio) without re-encoding the video file. Supports preset aspect ratios or custom values with different adaptation modes.
 
 ## Overview

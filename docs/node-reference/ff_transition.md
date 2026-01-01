@@ -8,6 +8,8 @@ description: Create transitions between videos
 
 <img src="/img/node-icons/transition.svg" alt="ff_transition Icon" className="node-icon" />
 
+![Video Transitions Node](/img/node-screenshots/ff_transition.png)
+
 The **Video Transitions** node creates transitions between multiple videos using various transition effects.
 
 ## Overview

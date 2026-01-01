@@ -8,6 +8,8 @@ description: Monitor a folder for new files and automatically process them
 
 <img src="/img/node-icons/watch.svg" alt="ff_watch Icon" className="node-icon" />
 
+![Watch Folder Node](/img/node-screenshots/ff_watch.png)
+
 The **Watch Folder** node monitors a folder for new files and can automatically process them through the pipeline when detected.
 
 ## Overview

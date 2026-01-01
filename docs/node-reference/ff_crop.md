@@ -8,6 +8,8 @@ description: Crop a video to specific dimensions
 
 <img src="/img/node-icons/crop.svg" alt="ff_crop Icon" className="node-icon" />
 
+![Crop Video Node](/img/node-screenshots/ff_crop.png)
+
 The **Crop Video** node crops a video to specific dimensions. You can crop by specifying edges (top, right, bottom, left) or by specifying size and position (width, height, x, y).
 
 ## Overview

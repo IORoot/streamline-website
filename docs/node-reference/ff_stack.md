@@ -8,6 +8,8 @@ description: Stack videos vertically or horizontally
 
 <img src="/img/node-icons/stack.svg" alt="ff_stack Icon" className="node-icon" />
 
+![Stack Videos Node](/img/node-screenshots/ff_stack.png)
+
 The **Stack Videos** node arranges multiple videos side-by-side or stacked vertically in a single output.
 
 ## Overview

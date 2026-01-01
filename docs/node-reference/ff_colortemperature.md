@@ -8,6 +8,8 @@ description: Adjust the color temperature to simulate warm or cool lighting
 
 <img src="/img/node-icons/colortemperature.svg" alt="ff_colortemperature Icon" className="node-icon" />
 
+![Color Temperature Node](/img/node-screenshots/ff_colortemperature.png)
+
 The **Color Temperature** node adjusts the color temperature to simulate warm or cool lighting conditions, measured in Kelvin.
 
 ## Overview

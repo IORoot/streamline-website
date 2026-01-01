@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-pad.svg" alt="ff_a_pad Icon" className="node-icon" />
 
+![Audio Pad Node](/img/node-screenshots/ff_a_pad.png)
+
 Pad audio with silence to extend duration or ensure minimum length.
 
 ## Description

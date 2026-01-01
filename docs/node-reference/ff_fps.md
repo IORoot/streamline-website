@@ -8,6 +8,8 @@ description: Change the frame rate of a video
 
 <img src="/img/node-icons/fps.svg" alt="ff_fps Icon" className="node-icon" />
 
+![Change FPS Node](/img/node-screenshots/ff_fps.png)
+
 The **Change FPS** node changes the frame rate of a video using FFMPEG's fps filter. Useful for converting between different frame rates or creating slow/fast motion effects.
 
 ## Overview

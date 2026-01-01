@@ -8,6 +8,8 @@ description: Filter files from a folder using regular expression patterns
 
 <img src="/img/node-icons/grep.svg" alt="ff_grep Icon" className="node-icon" />
 
+![File Filter Node](/img/node-screenshots/ff_grep.png)
+
 The **File Filter** node filters files from a folder using regular expression patterns, allowing you to process only specific file types or patterns.
 
 ## Overview

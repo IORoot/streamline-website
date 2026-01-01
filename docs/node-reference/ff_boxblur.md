@@ -8,6 +8,8 @@ description: Apply box blur algorithm with separate control over luma, chroma, a
 
 <img src="/img/node-icons/boxblur.svg" alt="ff_boxblur Icon" className="node-icon" />
 
+![Box Blur Node](/img/node-screenshots/ff_boxblur.png)
+
 The **Box Blur** node applies a box blur algorithm with separate control over luma (brightness), chroma (color), and alpha (transparency) channels. Supports basic mode (uniform blur) and advanced mode (per-channel control).
 
 ## Overview

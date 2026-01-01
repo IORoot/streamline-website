@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-limiter.svg" alt="ff_a_limiter Icon" className="node-icon" />
 
+![Audio Limiter Node](/img/node-screenshots/ff_a_limiter.png)
+
 Apply lookahead limiter to prevent audio clipping and control peak levels.
 
 ## Description

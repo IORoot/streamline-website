@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-loop.svg" alt="ff_a_loop Icon" className="node-icon" />
 
+![Audio Loop Node](/img/node-screenshots/ff_a_loop.png)
+
 Loop audio samples a specified number of times or infinitely.
 
 ## Description

@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-delay.svg" alt="ff_a_delay Icon" className="node-icon" />
 
+![Audio Delay Node](/img/node-screenshots/ff_a_delay.png)
+
 Delay audio channels by a specified amount of time, either uniformly or per-channel.
 
 ## Description

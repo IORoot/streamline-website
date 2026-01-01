@@ -8,6 +8,8 @@ description: Define input file(s) or folder for pipeline
 
 <img src="/img/node-icons/input.svg" alt="ff_input Icon" className="node-icon" />
 
+![Input Node](/img/node-screenshots/ff_input.png)
+
 The **Input** node is the starting point of any pipeline. It defines the source file(s) or folder that will be processed through your video editing workflow.
 
 ## Overview

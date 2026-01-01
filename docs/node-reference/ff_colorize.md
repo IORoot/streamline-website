@@ -8,6 +8,8 @@ description: Apply a color overlay to a video stream
 
 <img src="/img/node-icons/colorize.svg" alt="ff_colorize Icon" className="node-icon" />
 
+![Colorize Node](/img/node-screenshots/ff_colorize.png)
+
 The **Colorize** node applies a color overlay to a video stream, converting it to a specific hue while preserving the original lightness structure.
 
 ## Overview

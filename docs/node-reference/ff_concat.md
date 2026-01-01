@@ -8,6 +8,8 @@ description: Concatenate multiple videos
 
 <img src="/img/node-icons/concat.svg" alt="ff_concat Icon" className="node-icon" />
 
+![Concatenate Videos Node](/img/node-screenshots/ff_concat.png)
+
 The **Concatenate Videos** node joins multiple video files together end-to-end to create a single continuous video.
 
 ## Overview

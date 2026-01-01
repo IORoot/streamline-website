@@ -8,6 +8,8 @@ description: Adjust color white balance selectively for blacks and whites
 
 <img src="/img/node-icons/colorcorrect.svg" alt="ff_colorcorrect Icon" className="node-icon" />
 
+![Color Correct Node](/img/node-screenshots/ff_colorcorrect.png)
+
 The **Color Correct** node adjusts color white balance selectively for shadows and highlights. It provides separate warmth controls for dark and bright areas, plus saturation and detailed shadow/highlight color adjustments.
 
 ## Overview

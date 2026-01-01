@@ -8,6 +8,8 @@ description: Modify hue, saturation, and brightness of the video
 
 <img src="/img/node-icons/hue.svg" alt="ff_hue Icon" className="node-icon" />
 
+![Hue Node](/img/node-screenshots/ff_hue.png)
+
 The **Hue** node modifies the hue, saturation, and brightness of your video. Perfect for color correction, creative color effects, and adjusting the overall mood of your footage.
 
 ## Overview

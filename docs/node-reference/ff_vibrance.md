@@ -8,6 +8,8 @@ description: Boost muted colors without oversaturating already-vibrant colors
 
 <img src="/img/node-icons/vibrance.svg" alt="ff_vibrance Icon" className="node-icon" />
 
+![Vibrance Node](/img/node-screenshots/ff_vibrance.png)
+
 The **Vibrance** node boosts muted colors while preserving already-vibrant colors, providing more natural saturation enhancement than standard saturation adjustments.
 
 ## Overview

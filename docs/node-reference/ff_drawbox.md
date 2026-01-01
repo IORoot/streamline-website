@@ -8,6 +8,8 @@ description: Draw colored boxes and lines on video
 
 <img src="/img/node-icons/drawbox.svg" alt="ff_drawbox Icon" className="node-icon" />
 
+![Draw Box Node](/img/node-screenshots/ff_drawbox.png)
+
 The **Draw Box** node draws colored boxes and lines on video at specified positions and sizes.
 
 ## Overview

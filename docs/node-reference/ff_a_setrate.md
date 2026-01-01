@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-setrate.svg" alt="ff_a_setrate Icon" className="node-icon" />
 
+![Audio Set Rate Node](/img/node-screenshots/ff_a_setrate.png)
+
 Change sample rate without resampling, which changes both speed and pitch proportionally.
 
 ## Description

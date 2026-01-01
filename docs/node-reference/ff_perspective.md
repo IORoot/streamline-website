@@ -8,6 +8,8 @@ description: Apply perspective transformation by adjusting corner coordinates
 
 <img src="/img/node-icons/perspective.svg" alt="ff_perspective Icon" className="node-icon" />
 
+![Perspective Node](/img/node-screenshots/ff_perspective.png)
+
 The **Perspective** node applies perspective transformation by adjusting the four corner coordinates of the video.
 
 ## Overview

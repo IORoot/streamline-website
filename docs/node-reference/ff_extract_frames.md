@@ -8,6 +8,8 @@ description: Extract frames from video to a folder
 
 <img src="/img/node-icons/extract-frames.svg" alt="ff_extract_frames Icon" className="node-icon" />
 
+![Extract Frames Node](/img/node-screenshots/ff_extract_frames.png)
+
 The **Extract Frames** node extracts individual frames from a video and saves them as image files to a specified folder.
 
 ## Overview

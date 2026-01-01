@@ -8,6 +8,8 @@ description: Flip video horizontally or vertically
 
 <img src="/img/node-icons/flip.svg" alt="ff_flip Icon" className="node-icon" />
 
+![Flip Video Node](/img/node-screenshots/ff_flip.png)
+
 The **Flip Video** node flips a video horizontally (left-right) or vertically (up-down), or both. This is useful for correcting orientation issues, creating mirror effects, or fixing incorrectly recorded footage.
 
 ## Overview

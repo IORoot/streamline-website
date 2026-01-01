@@ -8,6 +8,8 @@ description: Apply edge-preserving blur - blurs noise while keeping edges sharp
 
 <img src="/img/node-icons/smartblur.svg" alt="ff_smartblur Icon" className="node-icon" />
 
+![Smart Blur Node](/img/node-screenshots/ff_smartblur.png)
+
 The **Smart Blur** node applies edge-preserving blur that reduces noise while maintaining sharp edges.
 
 ## Overview

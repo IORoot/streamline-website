@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-fade.svg" alt="ff_a_fade Icon" className="node-icon" />
 
+![Audio Fade Node](/img/node-screenshots/ff_a_fade.png)
+
 Apply fade-in or fade-out effects to audio with various curve types.
 
 ## Description

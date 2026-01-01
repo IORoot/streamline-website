@@ -8,6 +8,8 @@ description: Adjust color levels - input and output black/white points per chann
 
 <img src="/img/node-icons/colorlevels.svg" alt="ff_colorlevels Icon" className="node-icon" />
 
+![Color Levels Node](/img/node-screenshots/ff_colorlevels.png)
+
 The **Color Levels** node adjusts color levels with separate input and output black/white points for each color channel (red, green, blue, alpha).
 
 ## Overview

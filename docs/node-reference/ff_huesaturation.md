@@ -8,6 +8,8 @@ description: Apply hue-saturation-intensity adjustments to specific color ranges
 
 <img src="/img/node-icons/huesaturation.svg" alt="ff_huesaturation Icon" className="node-icon" />
 
+![Hue Saturation Node](/img/node-screenshots/ff_huesaturation.png)
+
 The **Hue Saturation** node applies hue, saturation, and intensity adjustments to specific color ranges, allowing selective color grading.
 
 ## Overview

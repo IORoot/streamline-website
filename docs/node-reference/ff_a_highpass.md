@@ -2,6 +2,8 @@
 
 <img src="/img/node-icons/audio-highpass.svg" alt="ff_a_highpass Icon" className="node-icon" />
 
+![Audio High Pass Node](/img/node-screenshots/ff_a_highpass.png)
+
 Apply high-pass filter to remove low frequencies, allowing only high frequencies to pass through.
 
 ## Description

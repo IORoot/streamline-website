@@ -8,6 +8,8 @@ description: Overlay a watermark on the video with positioning and transparency
 
 <img src="/img/node-icons/watermark.svg" alt="ff_watermark Icon" className="node-icon" />
 
+![Watermark Node](/img/node-screenshots/ff_watermark.png)
+
 The **Watermark** node overlays a watermark image on video with positioning, scaling, transparency, and time-based control.
 
 ## Overview

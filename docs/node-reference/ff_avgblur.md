@@ -8,6 +8,8 @@ description: Apply average blur effect using local pixel averaging
 
 <img src="/img/node-icons/avgblur.svg" alt="ff_avgblur Icon" className="node-icon" />
 
+![Average Blur Node](/img/node-screenshots/ff_avgblur.png)
+
 The **Average Blur** node applies an average blur effect using local pixel averaging. It supports separate control over horizontal and vertical blur sizes, and selective channel blurring (Y, U, V, A planes).
 
 ## Overview

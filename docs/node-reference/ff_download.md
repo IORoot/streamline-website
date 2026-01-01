@@ -8,6 +8,8 @@ description: Download a video or file to use in the scriptflow
 
 <img src="/img/node-icons/download.svg" alt="ff_download Icon" className="node-icon" />
 
+![Download Node](/img/node-screenshots/ff_download.png)
+
 The **Download** node downloads videos or files from URLs for use in your pipeline.
 
 ## Overview

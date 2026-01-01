@@ -8,6 +8,8 @@ description: Add text overlay to video
 
 <img src="/img/node-icons/text.svg" alt="ff_text Icon" className="node-icon" />
 
+![Add Text Node](/img/node-screenshots/ff_text.png)
+
 The **Add Text** node adds text overlays to video with extensive styling options including fonts, colors, positioning, and animations.
 
 ## Overview

@@ -8,6 +8,8 @@ description: Adjust video frames by remixing color channels
 
 <img src="/img/node-icons/colorchannelmixer.svg" alt="ff_colorchannelmixer Icon" className="node-icon" />
 
+![Color Channel Mixer Node](/img/node-screenshots/ff_colorchannelmixer.png)
+
 The **Color Channel Mixer** node remixes and adjusts video color channels. It provides advanced control over how red, green, blue, and alpha channels contribute to each output channel, enabling creative color effects and corrections.
 
 ## Overview

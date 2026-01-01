@@ -8,6 +8,8 @@ description: Apply unsharp mask filter to video
 
 <img src="/img/node-icons/unsharp.svg" alt="ff_unsharp Icon" className="node-icon" />
 
+![Unsharp Mask Node](/img/node-screenshots/ff_unsharp.png)
+
 The **Unsharp Mask** node applies an unsharp mask filter for sharpening or blurring video with per-channel control.
 
 ## Overview

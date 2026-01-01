@@ -8,6 +8,8 @@ description: Embed subtitles over a video with style customization
 
 <img src="/img/node-icons/subtitles.svg" alt="ff_subtitles Icon" className="node-icon" />
 
+![Subtitles Node](/img/node-screenshots/ff_subtitles.png)
+
 The **Subtitles** node embeds subtitle files over video with customizable styling using ASS format styles.
 
 ## Overview

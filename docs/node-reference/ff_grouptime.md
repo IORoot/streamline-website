@@ -8,6 +8,8 @@ description: Trim a group of videos proportionally to fit a specified duration
 
 <img src="/img/node-icons/grouptime.svg" alt="ff_grouptime Icon" className="node-icon" />
 
+![Group Time Node](/img/node-screenshots/ff_grouptime.png)
+
 The **Group Time** node trims multiple videos proportionally to fit a specified total duration, then concatenates them.
 
 ## Overview
