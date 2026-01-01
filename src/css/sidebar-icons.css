@@ -1,0 +1,449 @@
+/* Sidebar icon styles for node reference items */
+
+/* Add icon to node reference sidebar items - use universal selectors with !important */
+a[href*="/node-reference/"]::before,
+.theme-doc-sidebar-item-link[href*="/node-reference/"]::before,
+.menu__link[href*="/node-reference/"]::before,
+.theme-doc-sidebar-item-link-level-1[href*="/node-reference/"]::before,
+.theme-doc-sidebar-item-link-level-2[href*="/node-reference/"]::before,
+.theme-doc-sidebar-item-link-level-3[href*="/node-reference/"]::before {
+  content: '' !important;
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 8px !important;
+  vertical-align: middle !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  flex-shrink: 0 !important;
+  opacity: 0.9 !important;
+  filter: brightness(0) invert(1) !important; /* Make icons white */
+}
+
+/* Map node IDs to icon paths - use universal selectors for maximum compatibility */
+a[href*="ff_a_compressor"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_compressor"]::before,
+.menu__link[href*="ff_a_compressor"]::before {
+  background-image: url('/img/node-icons/audio-compressor.svg') !important;
+}
+
+a[href*="ff_a_deesser"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_deesser"]::before,
+.menu__link[href*="ff_a_deesser"]::before {
+  background-image: url('/img/node-icons/audio-deesser.svg') !important;
+}
+
+a[href*="ff_a_delay"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_delay"]::before,
+.menu__link[href*="ff_a_delay"]::before {
+  background-image: url('/img/node-icons/audio-delay.svg') !important;
+}
+
+a[href*="ff_a_echo"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_echo"]::before,
+.menu__link[href*="ff_a_echo"]::before {
+  background-image: url('/img/node-icons/audio-echo.svg') !important;
+}
+
+a[href*="ff_a_equalizer"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_equalizer"]::before,
+.menu__link[href*="ff_a_equalizer"]::before {
+  background-image: url('/img/node-icons/audio-equalizer.svg') !important;
+}
+
+a[href*="ff_a_fade"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_fade"]::before,
+.menu__link[href*="ff_a_fade"]::before {
+  background-image: url('/img/node-icons/audio-fade.svg') !important;
+}
+
+a[href*="ff_a_highpass"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_highpass"]::before,
+.menu__link[href*="ff_a_highpass"]::before {
+  background-image: url('/img/node-icons/audio-highpass.svg') !important;
+}
+
+a[href*="ff_a_limiter"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_limiter"]::before,
+.menu__link[href*="ff_a_limiter"]::before {
+  background-image: url('/img/node-icons/audio-limiter.svg') !important;
+}
+
+a[href*="ff_a_loop"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_loop"]::before,
+.menu__link[href*="ff_a_loop"]::before {
+  background-image: url('/img/node-icons/audio-loop.svg') !important;
+}
+
+a[href*="ff_a_lowpass"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_lowpass"]::before,
+.menu__link[href*="ff_a_lowpass"]::before {
+  background-image: url('/img/node-icons/audio-lowpass.svg') !important;
+}
+
+a[href*="ff_a_pad"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_pad"]::before,
+.menu__link[href*="ff_a_pad"]::before {
+  background-image: url('/img/node-icons/audio-pad.svg') !important;
+}
+
+a[href*="ff_a_reverse"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_reverse"]::before,
+.menu__link[href*="ff_a_reverse"]::before {
+  background-image: url('/img/node-icons/audio-reverse.svg') !important;
+}
+
+a[href*="ff_a_setrate"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_setrate"]::before,
+.menu__link[href*="ff_a_setrate"]::before {
+  background-image: url('/img/node-icons/audio-setrate.svg') !important;
+}
+
+a[href*="ff_a_tempo"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_tempo"]::before,
+.menu__link[href*="ff_a_tempo"]::before {
+  background-image: url('/img/node-icons/audio-tempo.svg') !important;
+}
+
+a[href*="ff_a_volume"]::before,
+.theme-doc-sidebar-item-link[href*="ff_a_volume"]::before,
+.menu__link[href*="ff_a_volume"]::before {
+  background-image: url('/img/node-icons/audio-volume.svg') !important;
+}
+
+a[href*="ff_aspect_ratio"]::before,
+.theme-doc-sidebar-item-link[href*="ff_aspect_ratio"]::before,
+.menu__link[href*="ff_aspect_ratio"]::before {
+  background-image: url('/img/node-icons/aspect-ratio.svg') !important;
+}
+
+a[href*="ff_audio"]::before,
+.theme-doc-sidebar-item-link[href*="ff_audio"]::before,
+.menu__link[href*="ff_audio"]::before {
+  background-image: url('/img/node-icons/audio.svg') !important;
+}
+
+a[href*="ff_avgblur"]::before,
+.theme-doc-sidebar-item-link[href*="ff_avgblur"]::before,
+.menu__link[href*="ff_avgblur"]::before {
+  background-image: url('/img/node-icons/avgblur.svg') !important;
+}
+
+a[href*="ff_blur"]::before,
+.theme-doc-sidebar-item-link[href*="ff_blur"]::before,
+.menu__link[href*="ff_blur"]::before {
+  background-image: url('/img/node-icons/blur.svg') !important;
+}
+
+a[href*="ff_boxblur"]::before,
+.theme-doc-sidebar-item-link[href*="ff_boxblur"]::before,
+.menu__link[href*="ff_boxblur"]::before {
+  background-image: url('/img/node-icons/boxblur.svg') !important;
+}
+
+a[href*="ff_colorchannelmixer"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colorchannelmixer"]::before,
+.menu__link[href*="ff_colorchannelmixer"]::before {
+  background-image: url('/img/node-icons/colorchannelmixer.svg') !important;
+}
+
+a[href*="ff_colorcorrect"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colorcorrect"]::before,
+.menu__link[href*="ff_colorcorrect"]::before {
+  background-image: url('/img/node-icons/colorcorrect.svg') !important;
+}
+
+a[href*="ff_colorize"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colorize"]::before,
+.menu__link[href*="ff_colorize"]::before {
+  background-image: url('/img/node-icons/colorize.svg') !important;
+}
+
+a[href*="ff_colorkey"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colorkey"]::before,
+.menu__link[href*="ff_colorkey"]::before {
+  background-image: url('/img/node-icons/colorkey.svg') !important;
+}
+
+a[href*="ff_colorlevels"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colorlevels"]::before,
+.menu__link[href*="ff_colorlevels"]::before {
+  background-image: url('/img/node-icons/colorlevels.svg') !important;
+}
+
+a[href*="ff_colortemperature"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colortemperature"]::before,
+.menu__link[href*="ff_colortemperature"]::before {
+  background-image: url('/img/node-icons/colortemperature.svg') !important;
+}
+
+a[href*="ff_colour_adjust"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colour_adjust"]::before,
+.menu__link[href*="ff_colour_adjust"]::before {
+  background-image: url('/img/node-icons/colour-adjust.svg') !important;
+}
+
+a[href*="ff_colour_balance"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colour_balance"]::before,
+.menu__link[href*="ff_colour_balance"]::before {
+  background-image: url('/img/node-icons/colour-balance.svg') !important;
+}
+
+a[href*="ff_colour_contrast"]::before,
+.theme-doc-sidebar-item-link[href*="ff_colour_contrast"]::before,
+.menu__link[href*="ff_colour_contrast"]::before {
+  background-image: url('/img/node-icons/colour-contrast.svg') !important;
+}
+
+a[href*="ff_concat"]::before,
+.theme-doc-sidebar-item-link[href*="ff_concat"]::before,
+.menu__link[href*="ff_concat"]::before {
+  background-image: url('/img/node-icons/concat.svg') !important;
+}
+
+a[href*="ff_convert"]::before,
+.theme-doc-sidebar-item-link[href*="ff_convert"]::before,
+.menu__link[href*="ff_convert"]::before {
+  background-image: url('/img/node-icons/convert.svg') !important;
+}
+
+a[href*="ff_crop"]::before,
+.theme-doc-sidebar-item-link[href*="ff_crop"]::before,
+.menu__link[href*="ff_crop"]::before {
+  background-image: url('/img/node-icons/crop.svg') !important;
+}
+
+a[href*="ff_custom"]::before,
+.theme-doc-sidebar-item-link[href*="ff_custom"]::before,
+.menu__link[href*="ff_custom"]::before {
+  background-image: url('/img/node-icons/custom.svg') !important;
+}
+
+a[href*="ff_cut"]::before,
+.theme-doc-sidebar-item-link[href*="ff_cut"]::before,
+.menu__link[href*="ff_cut"]::before {
+  background-image: url('/img/node-icons/cut.svg') !important;
+}
+
+a[href*="ff_dblur"]::before,
+.theme-doc-sidebar-item-link[href*="ff_dblur"]::before,
+.menu__link[href*="ff_dblur"]::before {
+  background-image: url('/img/node-icons/dblur.svg') !important;
+}
+
+a[href*="ff_download"]::before,
+.theme-doc-sidebar-item-link[href*="ff_download"]::before,
+.menu__link[href*="ff_download"]::before {
+  background-image: url('/img/node-icons/download.svg') !important;
+}
+
+a[href*="ff_drawbox"]::before,
+.theme-doc-sidebar-item-link[href*="ff_drawbox"]::before,
+.menu__link[href*="ff_drawbox"]::before {
+  background-image: url('/img/node-icons/drawbox.svg') !important;
+}
+
+a[href*="ff_exposure"]::before,
+.theme-doc-sidebar-item-link[href*="ff_exposure"]::before,
+.menu__link[href*="ff_exposure"]::before {
+  background-image: url('/img/node-icons/exposure.svg') !important;
+}
+
+a[href*="ff_extract_frames"]::before,
+.theme-doc-sidebar-item-link[href*="ff_extract_frames"]::before,
+.menu__link[href*="ff_extract_frames"]::before {
+  background-image: url('/img/node-icons/extract-frames.svg') !important;
+}
+
+a[href*="ff_flip"]::before,
+.theme-doc-sidebar-item-link[href*="ff_flip"]::before,
+.menu__link[href*="ff_flip"]::before {
+  background-image: url('/img/node-icons/flip.svg') !important;
+}
+
+a[href*="ff_fps"]::before,
+.theme-doc-sidebar-item-link[href*="ff_fps"]::before,
+.menu__link[href*="ff_fps"]::before {
+  background-image: url('/img/node-icons/fps.svg') !important;
+}
+
+a[href*="ff_gblur"]::before,
+.theme-doc-sidebar-item-link[href*="ff_gblur"]::before,
+.menu__link[href*="ff_gblur"]::before {
+  background-image: url('/img/node-icons/gblur.svg') !important;
+}
+
+a[href*="ff_grep"]::before,
+.theme-doc-sidebar-item-link[href*="ff_grep"]::before,
+.menu__link[href*="ff_grep"]::before {
+  background-image: url('/img/node-icons/grep.svg') !important;
+}
+
+a[href*="ff_grouptime"]::before,
+.theme-doc-sidebar-item-link[href*="ff_grouptime"]::before,
+.menu__link[href*="ff_grouptime"]::before {
+  background-image: url('/img/node-icons/grouptime.svg') !important;
+}
+
+a[href*="ff_hue"]::before,
+.theme-doc-sidebar-item-link[href*="ff_hue"]::before,
+.menu__link[href*="ff_hue"]::before {
+  background-image: url('/img/node-icons/hue.svg') !important;
+}
+
+a[href*="ff_huesaturation"]::before,
+.theme-doc-sidebar-item-link[href*="ff_huesaturation"]::before,
+.menu__link[href*="ff_huesaturation"]::before {
+  background-image: url('/img/node-icons/huesaturation.svg') !important;
+}
+
+a[href*="ff_image"]::before,
+.theme-doc-sidebar-item-link[href*="ff_image"]::before,
+.menu__link[href*="ff_image"]::before {
+  background-image: url('/img/node-icons/image.svg') !important;
+}
+
+a[href*="ff_input"]::before,
+.theme-doc-sidebar-item-link[href*="ff_input"]::before,
+.menu__link[href*="ff_input"]::before {
+  background-image: url('/img/node-icons/input.svg') !important;
+}
+
+a[href*="ff_lut"]::before,
+.theme-doc-sidebar-item-link[href*="ff_lut"]::before,
+.menu__link[href*="ff_lut"]::before {
+  background-image: url('/img/node-icons/lut.svg') !important;
+}
+
+a[href*="ff_middle"]::before,
+.theme-doc-sidebar-item-link[href*="ff_middle"]::before,
+.menu__link[href*="ff_middle"]::before {
+  background-image: url('/img/node-icons/middle.svg') !important;
+}
+
+a[href*="ff_negate"]::before,
+.theme-doc-sidebar-item-link[href*="ff_negate"]::before,
+.menu__link[href*="ff_negate"]::before {
+  background-image: url('/img/node-icons/negate.svg') !important;
+}
+
+a[href*="ff_orientation"]::before,
+.theme-doc-sidebar-item-link[href*="ff_orientation"]::before,
+.menu__link[href*="ff_orientation"]::before {
+  background-image: url('/img/node-icons/orientation.svg') !important;
+}
+
+a[href*="ff_output"]::before,
+.theme-doc-sidebar-item-link[href*="ff_output"]::before,
+.menu__link[href*="ff_output"]::before {
+  background-image: url('/img/node-icons/output.svg') !important;
+}
+
+a[href*="ff_overlay"]::before,
+.theme-doc-sidebar-item-link[href*="ff_overlay"]::before,
+.menu__link[href*="ff_overlay"]::before {
+  background-image: url('/img/node-icons/overlay.svg') !important;
+}
+
+a[href*="ff_pad"]::before,
+.theme-doc-sidebar-item-link[href*="ff_pad"]::before,
+.menu__link[href*="ff_pad"]::before {
+  background-image: url('/img/node-icons/pad.svg') !important;
+}
+
+a[href*="ff_perspective"]::before,
+.theme-doc-sidebar-item-link[href*="ff_perspective"]::before,
+.menu__link[href*="ff_perspective"]::before {
+  background-image: url('/img/node-icons/perspective.svg') !important;
+}
+
+a[href*="ff_proxy"]::before,
+.theme-doc-sidebar-item-link[href*="ff_proxy"]::before,
+.menu__link[href*="ff_proxy"]::before {
+  background-image: url('/img/node-icons/proxy.svg') !important;
+}
+
+a[href*="ff_rotate"]::before,
+.theme-doc-sidebar-item-link[href*="ff_rotate"]::before,
+.menu__link[href*="ff_rotate"]::before {
+  background-image: url('/img/node-icons/rotate.svg') !important;
+}
+
+a[href*="ff_scale"]::before,
+.theme-doc-sidebar-item-link[href*="ff_scale"]::before,
+.menu__link[href*="ff_scale"]::before {
+  background-image: url('/img/node-icons/scale.svg') !important;
+}
+
+a[href*="ff_sharpen"]::before,
+.theme-doc-sidebar-item-link[href*="ff_sharpen"]::before,
+.menu__link[href*="ff_sharpen"]::before {
+  background-image: url('/img/node-icons/sharpen.svg') !important;
+}
+
+a[href*="ff_smartblur"]::before,
+.theme-doc-sidebar-item-link[href*="ff_smartblur"]::before,
+.menu__link[href*="ff_smartblur"]::before {
+  background-image: url('/img/node-icons/smartblur.svg') !important;
+}
+
+a[href*="ff_stack"]::before,
+.theme-doc-sidebar-item-link[href*="ff_stack"]::before,
+.menu__link[href*="ff_stack"]::before {
+  background-image: url('/img/node-icons/stack.svg') !important;
+}
+
+a[href*="ff_subtitles"]::before,
+.theme-doc-sidebar-item-link[href*="ff_subtitles"]::before,
+.menu__link[href*="ff_subtitles"]::before {
+  background-image: url('/img/node-icons/subtitles.svg') !important;
+}
+
+a[href*="ff_text"]::before,
+.theme-doc-sidebar-item-link[href*="ff_text"]::before,
+.menu__link[href*="ff_text"]::before {
+  background-image: url('/img/node-icons/text.svg') !important;
+}
+
+a[href*="ff_thumbnail"]::before,
+.theme-doc-sidebar-item-link[href*="ff_thumbnail"]::before,
+.menu__link[href*="ff_thumbnail"]::before {
+  background-image: url('/img/node-icons/thumbnail.svg') !important;
+}
+
+a[href*="ff_transcode"]::before,
+.theme-doc-sidebar-item-link[href*="ff_transcode"]::before,
+.menu__link[href*="ff_transcode"]::before {
+  background-image: url('/img/node-icons/transcode.svg') !important;
+}
+
+a[href*="ff_transition"]::before,
+.theme-doc-sidebar-item-link[href*="ff_transition"]::before,
+.menu__link[href*="ff_transition"]::before {
+  background-image: url('/img/node-icons/transition.svg') !important;
+}
+
+a[href*="ff_unsharp"]::before,
+.theme-doc-sidebar-item-link[href*="ff_unsharp"]::before,
+.menu__link[href*="ff_unsharp"]::before {
+  background-image: url('/img/node-icons/unsharp.svg') !important;
+}
+
+a[href*="ff_vibrance"]::before,
+.theme-doc-sidebar-item-link[href*="ff_vibrance"]::before,
+.menu__link[href*="ff_vibrance"]::before {
+  background-image: url('/img/node-icons/vibrance.svg') !important;
+}
+
+a[href*="ff_watch"]::before,
+.theme-doc-sidebar-item-link[href*="ff_watch"]::before,
+.menu__link[href*="ff_watch"]::before {
+  background-image: url('/img/node-icons/watch.svg') !important;
+}
+
+a[href*="ff_watermark"]::before,
+.theme-doc-sidebar-item-link[href*="ff_watermark"]::before,
+.menu__link[href*="ff_watermark"]::before {
+  background-image: url('/img/node-icons/watermark.svg') !important;
+}

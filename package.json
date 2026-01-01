@@ -41,5 +41,8 @@
     "react-dom": "^19.2.3",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@docusaurus/theme-mermaid": "^3.9.2"
   }
 }

@@ -5,6 +5,17 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import './sidebar-icons.css';
+
+/* Node page icon styling */
+.node-icon {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+  display: inline-block;
+  filter: brightness(0) invert(1); /* Make icons white */
+}
 
 @tailwind base;
 @tailwind components;
@@ -101,4 +112,75 @@
 .btn-secondary:hover {
   background: #333333;
   border-color: #8BEF6C;
+}
+
+/* Code block styling - black background with green text */
+pre,
+pre code,
+code,
+.prism-code,
+.token {
+  background-color: #000000 !important;
+  color: #00ff00 !important;
+  font-family: var(--ifm-font-family-monospace) !important;
+}
+
+/* Code block container */
+pre {
+  background-color: #000000 !important;
+  border: 1px solid #333333;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Inline code */
+:not(pre) > code {
+  background-color: #000000 !important;
+  color: #00ff00 !important;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-family: var(--ifm-font-family-monospace) !important;
+}
+
+/* Prism syntax highlighting - override all token colors to green */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata,
+.token.punctuation,
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted,
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted,
+.token.operator,
+.token.entity,
+.token.url,
+.token.variable,
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name,
+.token.keyword,
+.token.regex,
+.token.important {
+  color: #00ff00 !important;
+}
+
+/* Code block line numbers if present */
+.prism-code .token-line {
+  color: #00ff00 !important;
+}
+
+/* Highlighted code lines */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 255, 0, 0.1) !important;
 }
